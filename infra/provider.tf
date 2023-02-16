@@ -18,6 +18,6 @@ resource "aws_instance" "ubuntu_server" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Ubuntu-Server 22.04"
+    Name = "Ubuntu-Server 22.04 LTS"
   }
 }
