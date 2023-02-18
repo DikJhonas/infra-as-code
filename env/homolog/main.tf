@@ -1,9 +1,9 @@
 module "Homologacao" {
   source = "../../infra"
   
-  nome = "Homologacao"
-  descricao = "Aplicacao-de-homologacao"
+  nome = "homologacao"
+  descricao = "aplicacao-de-homologacao"
   max = 5
   maquina = "t2.micro"
-  ambiente = "Ambiente-de-homologacao"
+  ambiente = "ambiente-de-homologacao"
 }
