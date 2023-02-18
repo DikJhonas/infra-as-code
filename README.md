@@ -30,7 +30,7 @@ O projeto foi desenvolvido no VSC (Visual Studio Code), sendo assim, instale o V
 
 > Caso baixou o zip, extraia o projeto antes de procurá-lo, pois não é possível abrir via arquivo zip
 
-Vá até a paste a abra a pasta do projeto. Apos abrir o projeto abra um terminal, pode ser o integrado com o VSC, navegue até as pastas `infra/`,`env/Prod` e `env/homolog` e execute o comando `terraform init` dentro delas, agora temos o terraform iniciado e podemos começar a ultiliza-lo. Para criar a infraestrutura, execute o terraform apply em uma das pastas de Produção (`env/Prod`) ou de Homologação (`env/homolog`) de acordo com o ambiente desejado.
+Va até a paste a abra a pasta do projeto. Apos abrir o projeto abra um terminal, pode ser o integrado com o VSC, navegue até as pastas `infra/`,`env/Prod` e `env/homolog` e execute o comando `terraform init` dentro delas, agora temos o terraform iniciado e podemos começar a ultiliza-lo. Para criar a infraestrutura, execute o terraform apply em uma das pastas de Produção (`env/Prod`) ou de Homologação (`env/homolog`) de acordo com o ambiente desejado.
 
 Em seguida atualize o ambiente para a ultima versão de produção com:
 
